@@ -12,6 +12,7 @@ The primary goal of this project is to develop a system that can accurately clas
 
 1. **Data Collection and Preparation:**
     - We used a balanced dataset containing text samples labeled as either hateful or non-hateful. The dataset was pre-processed to remove noise, such as HTML tags, special characters, and stopwords.
+    - The dataset was obtained from [Kaggle: Hate Speech Detection Curated Dataset](https://www.kaggle.com/datasets/waalbannyantudre/hate-speech-detection-curated-dataset/data?select=HateSpeechDatasetBalanced.csv).
     - We also performed data augmentation and sampling to ensure the model was trained on a diverse and representative dataset.
 
 2. **Model Development:**
@@ -43,7 +44,7 @@ The primary goal of this project is to develop a system that can accurately clas
 
 ### 4. **Streamlit Application**
     - **User Interface:** We built a Streamlit app to provide an intuitive interface for text classification. Users can enter text directly into the app and view the prediction results instantly.
-    - **Model Interpretation:** The app includes an option to display LIME explanations, showing which parts of the input text influenced the model’s decision.
+    
 
 ### 5. **Deployment**
     - The Streamlit app and API were deployed on a local server, making the model accessible for testing and demonstration purposes. Future plans include deploying the application to a cloud service for broader accessibility.
@@ -86,7 +87,6 @@ The primary goal of this project is to develop a system that can accurately clas
 ### Streamlit App
 
 - Input any text into the provided textbox to get a prediction on whether the text is hateful or non-hateful.
-- View LIME explanations to understand which parts of the text influenced the model's prediction.
 
 ### API Usage
 

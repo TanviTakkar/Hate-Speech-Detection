@@ -29,21 +29,21 @@ The primary goal of this project is to develop a system that can accurately clas
 ## How We Did It
 
 ## 1. **Data Preprocessing**
-    - **Cleaning:** We removed unnecessary HTML tags, special characters, and digits from the text data.
-    - **Tokenization and Stopword Removal:** We tokenized the text and removed common English stopwords that do not contribute meaningfully to the classification task.
-    - **Spelling Correction:** We used the SymSpell library to correct any spelling errors in the text.
+    - Cleaning: We removed unnecessary HTML tags, special characters, and digits from the text data.
+    - Tokenization and Stopword Removal: We tokenized the text and removed common English stopwords that do not contribute meaningfully to the classification task.
+    - Spelling Correction: We used the SymSpell library to correct any spelling errors in the text.
 
 ## 2. **Model Training**
-    - **Model Selection:** We selected DistilBERT due to its balance between performance and computational efficiency.
-    - **Fine-tuning:** We fine-tuned the DistilBERT model on our dataset, adjusting the model’s parameters to minimize classification error.
-    - **Evaluation:** The model’s performance was evaluated using accuracy as the primary metric, with regular evaluations after each training epoch.
+    - Model Selection: We selected DistilBERT due to its balance between performance and computational efficiency.
+    - Fine-tuning: We fine-tuned the DistilBERT model on our dataset, adjusting the model’s parameters to minimize classification error.
+    - Evaluation: The model’s performance was evaluated using accuracy as the primary metric, with regular evaluations after each training epoch.
 
 ## 3. **API Development**
-    - **Flask API:** The model was integrated into a Flask API, which allows users to send HTTP POST requests with text data and receive predictions in response.
-    - **End-to-End Pipeline:** The API handles the entire process from text preprocessing to model prediction and returns the classification result.
+    - Fast API: The model was integrated into a Fast API, which allows users to send HTTP POST requests with text data and receive predictions in response.
+    - End-to-End Pipeline: The API handles the entire process from text preprocessing to model prediction and returns the classification result.
 
 ## 4. **Streamlit Application**
-    - **User Interface:** We built a Streamlit app to provide an intuitive interface for text classification. Users can enter text directly into the app and view the prediction results instantly.
+    - User Interface: We built a Streamlit app to provide an intuitive interface for text classification. Users can enter text directly into the app and view the prediction results instantly.
     
 
 ## 5. **Deployment**

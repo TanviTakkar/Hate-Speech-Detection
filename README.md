@@ -29,9 +29,9 @@ The primary goal of this project is to develop a system that can accurately clas
 ## How We Did It
 
 ### 1. **Data Preprocessing**
-    - **Cleaning:** We removed unnecessary HTML tags, special characters, and digits from the text data.
-    - **Tokenization and Stopword Removal:** We tokenized the text and removed common English stopwords that do not contribute meaningfully to the classification task.
-    - **Spelling Correction:** We used the SymSpell library to correct any spelling errors in the text.
+    - ## **Cleaning:** We removed unnecessary HTML tags, special characters, and digits from the text data.
+    - ## **Tokenization and Stopword Removal:** We tokenized the text and removed common English stopwords that do not contribute meaningfully to the classification task.
+    - ## **Spelling Correction:** We used the SymSpell library to correct any spelling errors in the text.
 
 ### 2. **Model Training**
     - **Model Selection:** We selected DistilBERT due to its balance between performance and computational efficiency.

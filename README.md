@@ -46,7 +46,7 @@ The Hate Speech Analysis Project aims to classify text content as hateful or non
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/hate-speech-analysis.git
+   git clone https://github.com/lovek28/hate-speech-analysis.git
    cd hate-speech-analysis
    ```
 2. Install the required packages:
